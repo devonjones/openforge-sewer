@@ -1,0 +1,6 @@
+intermediate/
+*.sw[po]
+*.blend1
+*.blend2
+*.gcode
+wall/parts/sewer_wall_2x1-panels.blend
