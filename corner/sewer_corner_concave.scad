@@ -24,7 +24,7 @@ module sewer_corner_exterior(x) {
     translate([-1,18,13.5]) cube([27,.75,9]);
     translate([-1,5,13.5]) cube([27,.75,9]);
     translate([3.5,-1,13.9]) cube([1,27,8.5]);
-    translate([13.5,-1,13.9]) cube([1,27,8.5]);
+    translate([16,-1,13.9]) cube([1,27,8.5]);
 
     translate([-1,10.5,22]) cube([27,.75,7]);
     translate([10.5,-1,22]) cube([.75,27,7]);
@@ -33,11 +33,11 @@ module sewer_corner_exterior(x) {
     translate([-1,20,28.9]) cube([27,.75,8.5]);
     translate([-1,7,28.9]) cube([27,.75,8.5]);
     translate([4.5,-1,29]) cube([.75,27,8]);
-    translate([15.5,-1,29]) cube([.75,27,8]);
+    translate([13.5,-1,29]) cube([.75,27,8]);
 
     translate([-1,12,37]) cube([27,.75,4.5]);
     translate([8.5,-1,37]) cube([.75,27,4.5]);
-    translate([17.5,-1,37]) cube([.75,27,4.5]);
+    translate([18.5,-1,37]) cube([.75,27,4.5]);
 
     translate([-1,19,41.3]) cube([27,.75,8.5]);
     translate([-1,4,41.3]) cube([27,.75,8.5]);
