@@ -105,7 +105,7 @@ module sewer_wall_panels(x) {
 render_exterior=false;
 render_interior=false;
 render_panels=false;
-x=2;
+x=1;
 
 if (render_exterior) {
   sewer_wall_exterior(x);
