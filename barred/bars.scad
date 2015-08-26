@@ -11,13 +11,13 @@ module bar_top(y) {
 
 module bars(y) {
     for ( i = [1 : y*2] ) {
-        translate([12.5,12.5*i-6.25,-1]) cylinder(52,2.05/2,2.05/2, $fn=100);
+        translate([12.5,12.5*i-6.25,-1]) cylinder(52,2.25/2,2.25/2, $fn=100);
     }
 }
 
 module bars_notch(y) {
     for ( i = [1 : y*2] ) {
-        translate([12.5,12.5*i-6.25,-1]) cylinder(52,2.05/2,2.05/2, $fn=100);
+        translate([12.5,12.5*i-6.25,-1]) cylinder(52,2.25/2,2.25/2, $fn=100);
         translate([12.5,12.5*i-6.25,-1]) cylinder(2,4/2,4/2, $fn=100);
     }
 }
@@ -27,5 +27,5 @@ module frame(y) {
 }
 
 bar_y = 6;
-frame(bar_y);
+bars(bar_y);
 
